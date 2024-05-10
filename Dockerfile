@@ -19,7 +19,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN composer install --no-plugins --no-scripts
 
-EXPOSE 3000
+#EXPOSE 3000
 
 # Inicia o servidor de desenvolvimento PHP
-CMD php artisan serve --host=0.0.0.0 --port=3000
+#CMD php artisan serve --host=0.0.0.0 --port=3000
