@@ -16,12 +16,12 @@ Linux :
 
 - Certificar-se que está em root.
 
-1 - <docker-compose build>
-2 - <docker-compose up>
+1 - docker-compose build
+2 - docker-compose up
 
-## ☕ Usando <Rest laravel>
+## ☕ Usando Rest laravel
 
-Para usar <Rest laravel>, siga estas etapas:
+Para usar Rest laravel, siga estas etapas:
 
 ```
 <exemplo_de_uso>
