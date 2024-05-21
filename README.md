@@ -8,16 +8,16 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você instalou a versão `<Docker version 26+>`
 
-## 🚀 Instalando <Rest laravel>
+## 🚀 Instalando Rest laravel
 
-Para instalar o <Rest laravel>, siga estas etapas:
+Para instalar o Rest laravel, siga estas etapas:
 
 Linux :
 
 - Certificar-se que está em root.
 
-1 - docker-compose build
-2 - docker-compose up
+- docker-compose build
+- docker-compose up
 
 ## ☕ Usando Rest laravel
 
