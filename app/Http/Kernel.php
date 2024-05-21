@@ -31,7 +31,8 @@ class Kernel extends HttpKernel
 
      protected $routeMiddleware = [
         // Other middleware...
-        'CheckForAnyAbility' => \App\Http\Middleware\CheckForAnyAbility::class,
+        'checkRequest' => \App\Http\Middleware\checkRequest::class,
+        'checkUserAbilities' => \App\Http\Middleware\checkUserAbilities::class,
     ];
 
     protected $middlewareGroups = [
